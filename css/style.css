@@ -19,6 +19,10 @@ body{
     font-size: 30px;
     text-align: center;
 }
+footer{
+    color: #585858;
+    text-align: center;
+}
 /*
         Grid positioning
 */
@@ -42,8 +46,6 @@ body{
 
     grid-row-start: 1;
     grid-row-end: 2;
-
-    align-content: right;
 }
 #star4{
     grid-column-start: 1;
