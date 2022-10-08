@@ -3,7 +3,7 @@ body{
 }
 .container{
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: auto;
 }
 
@@ -24,7 +24,7 @@ body{
 */
 #star1{
     grid-column-start: 1;
-    grid-column-end: span 2;
+    grid-column-end: 2;
 
     grid-row-start: 1;
     grid-row-end: 2;
@@ -42,6 +42,8 @@ body{
 
     grid-row-start: 1;
     grid-row-end: 2;
+
+    align-content: right;
 }
 #star4{
     grid-column-start: 1;
